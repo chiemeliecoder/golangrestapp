@@ -1,4 +1,4 @@
-# Build Todo Application with Go & React
+# Building Todo Application with Go & React
 
 Go - Server
 
