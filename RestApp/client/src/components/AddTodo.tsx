@@ -1,10 +1,10 @@
 import {useState} from 'react';
-import { useForm} from '@mantine/hooks';
+import {useForm} from "@mantine/form";
 import {Modal, Group, Button, Textarea, TextInput} from '@mantine/core';
 import {ENDPOINT, Todo} from "../App.tsx";
 import {KeyedMutator} from "swr";
 
-function AddTodo({mutate}: {mutate:KeyedMutator<Todo []>}){
+function AddTodo({mutate}: {mutate:KeyedMutator<Todo[]>}){
     const [open, setOpen] = useState(false);
 
     const form = useForm({
